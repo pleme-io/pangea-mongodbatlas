@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Mongodbatlas; module Types; end; end; end; end
+
 # Mongodbatlas resources
 require_relative 'pangea/resources/mongodbatlas_access_list_api_key/resource'
 require_relative 'pangea/resources/mongodbatlas_advanced_cluster/resource'
